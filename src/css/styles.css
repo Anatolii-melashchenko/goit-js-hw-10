@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  
+   
 }
 
 body {
@@ -17,4 +19,24 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.country-info__items{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.country-info__title{
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  
 }
